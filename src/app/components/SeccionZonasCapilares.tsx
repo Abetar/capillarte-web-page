@@ -4,12 +4,12 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 
-const zonas = [
-  { nombre: 'Línea Frontal', id: 'frontal', color: '#0d9488' },
-  { nombre: 'Entradas Temporales', id: 'entradas', color: '#0d9488' },
-  { nombre: 'Zona Media Superior', id: 'superior', color: '#0d9488' },
-  { nombre: 'Coronilla', id: 'coronilla', color: '#0d9488' },
-]
+// const zonas = [
+//   { nombre: 'Línea Frontal', id: 'frontal', color: '#0d9488' },
+//   { nombre: 'Entradas Temporales', id: 'entradas', color: '#0d9488' },
+//   { nombre: 'Zona Media Superior', id: 'superior', color: '#0d9488' },
+//   { nombre: 'Coronilla', id: 'coronilla', color: '#0d9488' },
+// ]
 
 export default function SeccionZonasCapilares() {
   const [zonaActiva, setZonaActiva] = useState<string | null>(null)
