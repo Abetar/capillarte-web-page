@@ -1,9 +1,7 @@
-// components/SeccionPerfilDoctor.tsx
 'use client'
 
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { FaInstagram, FaFacebook } from 'react-icons/fa'
 
 export default function SeccionPerfilDoctor() {
     return (
@@ -71,17 +69,17 @@ export default function SeccionPerfilDoctor() {
                     href="https://www.instagram.com/capill.arte/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-teal-600 hover:text-teal-800 transition text-2xl"
+                    className="text-teal-600 hover:text-teal-800 transition text-lg font-semibold underline"
                 >
-                    <FaInstagram />
+                    Instagram
                 </a>
                 <a
                     href="https://www.facebook.com/profile.php?id=61560880023653"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-teal-600 hover:text-teal-800 transition text-2xl"
+                    className="text-teal-600 hover:text-teal-800 transition text-lg font-semibold underline"
                 >
-                    <FaFacebook />
+                    Facebook
                 </a>
             </div>
         </section>
