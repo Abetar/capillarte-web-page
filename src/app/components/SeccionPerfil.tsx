@@ -58,7 +58,7 @@ export default function SeccionPerfilDoctor() {
 
                     <h3 className="text-lg font-semibold text-teal-700 mt-6">Publicaciones</h3>
                     <p className="text-gray-700">
-                        "Diferencias en el Dímero D en pacientes diabéticos y no diabéticos con diagnóstico de TVP"
+                        &quot;Diferencias en el Dímero D en pacientes diabéticos y no diabéticos con diagnóstico de TVP&quot;
                     </p>
                 </motion.div>
             </div>
