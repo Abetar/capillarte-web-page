@@ -9,8 +9,6 @@ import {
     Stethoscope,
     Microscope,
     MonitorCheck,
-    Instagram,
-    Facebook
 } from 'lucide-react'
 
 const credenciales = [
