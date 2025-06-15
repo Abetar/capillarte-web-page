@@ -22,7 +22,7 @@ export default function SeccionZonasCapilares() {
       <div className="relative w-[300px] md:w-[400px] mx-auto">
         {/* Imagen base */}
         <Image
-          src="/images/Head_top-nobg.png"
+          src="/Head_top-nobg.png"
           alt="Cabeza superior"
           width={500}
           height={500}
