@@ -18,7 +18,7 @@ export default function SeccionAntesDespuesEstatico() {
         },
         {
             antes: '/Before-After4_1.jpg',
-            despues: '/Before-After4_2.jpg',
+            despues: '/Before-After4_2.JPG',
         },
     ]
 
