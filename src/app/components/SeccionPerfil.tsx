@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function SeccionPerfilDoctor() {
     return (
-        <section className="bg-teal-100 py-20 px-6 md:px-24 text-slate-800">
+        <section className="bg-white py-20 px-6 md:px-24 text-slate-800">
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Perfil del Especialista</h2>
 
             <div className="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto items-start justify-center">
@@ -39,7 +39,7 @@ export default function SeccionPerfilDoctor() {
                         <p className="text-sm">Centro de Salud San Gabriel (2021)</p>
                     </div>
                     <div>
-                        <h3 className="font-bold text-lg">Unidad Médica FARMALIFE</h3>
+                        <h3 className="font-bold text-lg">Unidad Médica Farmalife</h3>
                         <p className="text-sm">(2020 - 2023)</p>
                     </div>
                     <div>
@@ -63,7 +63,7 @@ export default function SeccionPerfilDoctor() {
                 {/* Ubicación Google Maps */}
                 <div className="w-full md:w-1/3 flex justify-center">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.181439731409!2d-103.43128072402718!3d20.68182308084282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428adf455e29b75%3A0x963ea435406ecb9b!2sAllioth%203952%2C%20Arboledas%2C%2045070%20Zapopan%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1717700589325!5m2!1ses-419!2smx"
+                        src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Allioth 3952, Arboledas, 45070 Zapopan, Jal.&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                         width="250"
                         height="250"
                         style={{ border: 0 }}

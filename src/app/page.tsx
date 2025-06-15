@@ -6,6 +6,7 @@ import SeccionZonasCapilares from './components/SeccionZonasCapilares'
 import SeccionPerfilDoctor from './components/SeccionPerfil'
 import BotonWhatsapp from './components/BotonWhatsApp'
 import FooterSitio from './components/FooterSitio'
+import BeforeAfterSlider from './components/BeforeAfterSlider'
 
 export const metadata: Metadata = {
   title: 'Clínica Capilar | PU Tricología',
@@ -20,6 +21,7 @@ export default function HomePage() {
       <SeccionCompromiso />
       <SeccionServicios />
       <SeccionZonasCapilares />
+      <BeforeAfterSlider />
       <SeccionPerfilDoctor />
       <BotonWhatsapp />
       <FooterSitio />
