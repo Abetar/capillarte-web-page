@@ -5,20 +5,20 @@ import { motion } from 'framer-motion'
 export default function SeccionAntesDespuesEstatico() {
     const casos = [
         {
-            antes: '/images/Before-After3_1.JPG',
-            despues: '/images/Before-After3_2.JPG',
+            antes: '/Before-After3_1.JPG',
+            despues: '/Before-After3_2.JPG',
         },
         {
-            antes: '/images/Before-After2_1.JPG',
-            despues: '/images/Before-After2_2.JPG',
+            antes: '/Before-After2_1.JPG',
+            despues: '/Before-After2_2.JPG',
         },
         {
-            antes: '/images/Before-After-1.JPG',
-            despues: '/images/Before-After-1_1.JPG',
+            antes: '/Before-After-1.JPG',
+            despues: '/Before-After-1_1.JPG',
         },
         {
-            antes: '/images/Before-After4_1.jpg',
-            despues: '/images/Before-After4_2.jpg',
+            antes: '/Before-After4_1.jpg',
+            despues: '/Before-After4_2.jpg',
         },
     ]
 
