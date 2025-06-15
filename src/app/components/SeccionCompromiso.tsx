@@ -50,15 +50,17 @@ export default function SeccionCompromiso() {
         </motion.p>
 
         <motion.a
-          href="#"
+          
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="inline-block bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-6 rounded transition"
+          href="https://wa.me/5213313572842?text=Hola%2C%20quiero%20saber%20más%20sobre%20el%20tratamiento%20capilar"
+          target='_blank'
+          className="bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-6 rounded-md shadow-md transition text-sm md:text-base"
         >
-          Conoce nuestro enfoque
+          Empieza tu tratamiento hoy
         </motion.a>
       </div>
     </section>

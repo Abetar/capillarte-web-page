@@ -20,10 +20,11 @@ export default function HeroSection() {
           Diagnóstico clínico, soluciones para alopecia y microinjerto con enfoque médico. Recupera tu confianza con un plan personalizado.
         </p>
         <motion.a
-          href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20agendar%20una%20valoración%20capilar"
+          href="https://wa.me/5213313572842?text=Hola%2C%20quiero%20agendar%20una%20valoración%20capilar"
           className="bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-5 rounded transition w-fit"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
+          target='_blank'
         >
           Agendar valoración capilar
         </motion.a>
