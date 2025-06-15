@@ -4,7 +4,7 @@ import SeccionCompromiso from './components/SeccionCompromiso'
 import SeccionServicios from './components/SeccionServicios'
 import SeccionZonasCapilares from './components/SeccionZonasCapilares'
 import SeccionPerfilDoctor from './components/SeccionPerfil'
-import BotonWhatsapp from './components/BotonWhatsapp'
+import BotonWhatsapp from './components/BotonWhatsApp'
 import FooterSitio from './components/FooterSitio'
 
 export const metadata: Metadata = {
