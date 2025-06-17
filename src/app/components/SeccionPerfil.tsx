@@ -7,6 +7,7 @@ export default function SeccionPerfilDoctor() {
     return (
         <section className="bg-white py-20 px-6 md:px-24 text-slate-800">
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Perfil del Especialista</h2>
+            <h4 className="text-2xl md:text-3xl font-bold text-center mb-10">Dr. Adrian Hernandez Lopez</h4>
 
             <div className="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto items-start justify-center">
                 {/* Imagen del doctor */}
