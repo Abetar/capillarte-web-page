@@ -3,6 +3,16 @@ import Navbar from '../components/Navbar'
 import FooterSitio from '../components/FooterSitio'
 import HeroSection from '../components/HeroSection'
 import SeccionZonasCapilares from '../components/SeccionZonasCapilares'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'CAPILLARTE',
+  description: 'Especialistas en salud capilar, injertos FUE y diagnóstico clínico personalizado.',
+  keywords: ['tricología', 'injerto capilar', 'alopecia', 'dermatología', 'clínica capilar'],
+   icons: {
+    icon: "/CapillarteLogo.png", // ruta relativa desde /public
+  },
+}
 
 
 export default function ServiciosPage() {

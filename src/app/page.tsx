@@ -10,9 +10,12 @@ import FooterSitio from './components/FooterSitio'
 import Navbar from './components/Navbar'
 
 export const metadata: Metadata = {
-  title: 'Clínica Capilar | PU Tricología',
+  title: 'CAPILLARTE',
   description: 'Especialistas en salud capilar, injertos FUE y diagnóstico clínico personalizado.',
   keywords: ['tricología', 'injerto capilar', 'alopecia', 'dermatología', 'clínica capilar'],
+   icons: {
+    icon: "/CapillarteLogo.png", // ruta relativa desde /public
+  },
 }
 
 export default function HomePage() {
