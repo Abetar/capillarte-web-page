@@ -27,7 +27,7 @@ export default function Navbar() {
                         height={80}
                         className="object-contain"
                     />
-                    <span className="text-teal-700 font-bold text-xl tracking-tight">CAPI <span className='text-teal-700 font-normal text-xl tracking-tight'>LLARTE</span></span>
+                    <span className="text-teal-700 font-bold text-xl tracking-tight">CAPILL<span className='text-teal-700 font-normal text-xl tracking-tight'>ARTE</span></span>
                 </Link>
 
                 {/* Botón hamburguesa en mobile */}
