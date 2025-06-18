@@ -14,7 +14,7 @@ export default function SeccionZonasCapilares() {
   const [zonaActiva, setZonaActiva] = useState<string | null>(null)
 
   return (
-    <section className="py-20 bg-white text-center">
+    <section className="py-20 bg-white text-center"id='zonas'>
       <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-slate-800 ">
         Áreas comunes para injerto capilar
       </h2>
