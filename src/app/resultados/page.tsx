@@ -1,11 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FaInstagram, FaTiktok } from 'react-icons/fa'
 import Navbar from '../components/Navbar'
 import FooterSitio from '../components/FooterSitio'
-
+import Image from 'next/image'
 
 const imagenes = [
     '/implantacion_nutrientes.jpg',
@@ -19,22 +19,12 @@ const imagenes = [
 ]
 
 export default function ResultadosMultimedia() {
-    const [imagenActiva, setImagenActiva] = useState<string | null>(null)
     const [mute, setMute] = useState(true)
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            const random = imagenes[Math.floor(Math.random() * imagenes.length)]
-            setImagenActiva(random)
-        }, 4000)
-        return () => clearInterval(interval)
-    }, [])
 
     return (
         <>
             <Navbar />
             <section className="bg-white">
-
                 {/* HERO CON VIDEO */}
                 <div className="relative w-full h-[70vh] overflow-hidden">
                     <video
@@ -68,10 +58,12 @@ export default function ResultadosMultimedia() {
                     </h2>
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         {imagenes.map((src, i) => (
-                            <img
+                            <Image
                                 key={i}
                                 src={src}
                                 alt={`Resultado ${i + 1}`}
+                                width={300}
+                                height={200}
                                 className="w-full h-48 object-cover rounded-lg shadow-sm hover:scale-105 transition-transform"
                             />
                         ))}
