@@ -64,39 +64,37 @@ export default function SobreElDoctor() {
                 </div>
 
                 {/* Botones CTA */}
-                <div className="mt-12 flex justify-center gap-6">
+                <div className="mt-10 flex flex-wrap justify-center gap-4 md:gap-6">
+                    <a
+                        href="https://www.doctoralia.com.mx/z/pBdDdj"
+                        target="_blank"
+                        className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
+                    >
+                        <MdLocalHospital /> Doctoralia
+                    </a>
                     <a
                         href="https://www.instagram.com/capill.arte/"
                         target="_blank"
-                        rel="noopener noreferrer"
                         className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
                     >
                         <FaInstagram /> Instagram
                     </a>
                     <a
-                        href="https://www.facebook.com/profile.php?id=61560880023653"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-blue-800 hover:bg-blue-900 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
-                    >
-                        <FaFacebook /> Facebook
-                    </a>
-                    <a
                         href="https://www.tiktok.com/@capillarte"
                         target="_blank"
-                        className="bg-black hover:bg-gray-800 text-white px-6 py-2 rounded-full flex items-center gap-2"
+                        className="bg-black hover:bg-gray-800 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
                     >
                         <FaTiktok /> TikTok
                     </a>
                     <a
-                        href="https://www.doctoralia.com.mx/z/pBdDdj"
+                        href="https://www.facebook.com/profile.php?id=61560880023653"
                         target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
+                        className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
                     >
-                        <MdLocalHospital /> Doctoralia
+                        <FaFacebook /> Facebook
                     </a>
                 </div>
+
             </section>
             <BotonWhatsapp />
 

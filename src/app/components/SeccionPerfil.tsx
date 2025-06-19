@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { FaInstagram, FaTiktok, FaFacebook} from 'react-icons/fa'
+import { FaInstagram, FaTiktok, FaFacebook } from 'react-icons/fa'
 import { MdLocalHospital } from 'react-icons/md'
 
 export default function SeccionPerfilDoctor() {
@@ -79,7 +79,7 @@ export default function SeccionPerfilDoctor() {
 
             {/* Botones redes sociales */}
 
-            <div className="mt-10 flex justify-center gap-6">
+            <div className="mt-10 flex flex-wrap justify-center gap-4 md:gap-6">
                 <a
                     href="https://www.doctoralia.com.mx/z/pBdDdj"
                     target="_blank"
@@ -90,25 +90,26 @@ export default function SeccionPerfilDoctor() {
                 <a
                     href="https://www.instagram.com/capill.arte/"
                     target="_blank"
-                    className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-2 rounded-full flex items-center gap-2"
+                    className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
                 >
                     <FaInstagram /> Instagram
                 </a>
                 <a
                     href="https://www.tiktok.com/@capillarte"
                     target="_blank"
-                    className="bg-black hover:bg-gray-800 text-white px-6 py-2 rounded-full flex items-center gap-2"
+                    className="bg-black hover:bg-gray-800 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
                 >
                     <FaTiktok /> TikTok
                 </a>
                 <a
                     href="https://www.facebook.com/profile.php?id=61560880023653"
                     target="_blank"
-                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full flex items-center gap-2"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
                 >
                     <FaFacebook /> Facebook
                 </a>
             </div>
+
         </section>
     )
 }
