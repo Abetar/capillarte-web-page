@@ -6,6 +6,7 @@ import { FaInstagram, FaTiktok } from 'react-icons/fa'
 import Navbar from '../components/Navbar'
 import FooterSitio from '../components/FooterSitio'
 
+
 const imagenes = [
     '/implantacion_nutrientes.jpg',
     '/injerto_barba.jpg',
@@ -18,7 +19,7 @@ const imagenes = [
 ]
 
 export default function ResultadosMultimedia() {
-    const [imagenActiva, setImagenActiva] = useState(imagenes[0])
+    const [imagenActiva, setImagenActiva] = useState<string | null>(null)
     const [mute, setMute] = useState(true)
 
     useEffect(() => {
