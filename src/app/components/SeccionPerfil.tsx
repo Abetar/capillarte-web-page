@@ -1,7 +1,8 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
+import { FaInstagram, FaTiktok, FaFacebook} from 'react-icons/fa'
+import { MdLocalHospital } from 'react-icons/md'
 
 export default function SeccionPerfilDoctor() {
     return (
@@ -77,28 +78,36 @@ export default function SeccionPerfilDoctor() {
             </div>
 
             {/* Botones redes sociales */}
-            <div className="mt-10 flex justify-center gap-4 flex-wrap">
-                <Link
-                    href="https://www.instagram.com/capill.arte/"
-                    target="_blank"
-                    className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 transition"
-                >
-                    Instagram
-                </Link>
-                <Link
+
+            <div className="mt-10 flex justify-center gap-6">
+                <a
                     href="https://www.doctoralia.com.mx/z/pBdDdj"
                     target="_blank"
-                    className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 transition"
+                    className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded-full flex items-center gap-2 transition"
                 >
-                    Doctoralia
-                </Link>
-                <Link
+                    <MdLocalHospital /> Doctoralia
+                </a>
+                <a
+                    href="https://www.instagram.com/capill.arte/"
+                    target="_blank"
+                    className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-2 rounded-full flex items-center gap-2"
+                >
+                    <FaInstagram /> Instagram
+                </a>
+                <a
+                    href="https://www.tiktok.com/@capillarte"
+                    target="_blank"
+                    className="bg-black hover:bg-gray-800 text-white px-6 py-2 rounded-full flex items-center gap-2"
+                >
+                    <FaTiktok /> TikTok
+                </a>
+                <a
                     href="https://www.facebook.com/profile.php?id=61560880023653"
                     target="_blank"
-                    className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 transition"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full flex items-center gap-2"
                 >
-                    Facebook
-                </Link>
+                    <FaFacebook /> Facebook
+                </a>
             </div>
         </section>
     )

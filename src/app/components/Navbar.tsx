@@ -43,7 +43,7 @@ export default function Navbar() {
                 <nav className="hidden md:flex gap-6 text-sm font-semibold text-slate-700">
                     <Link href="/servicios" className="hover:text-blue-700 transition">Servicios</Link>
                     <Link href="/servicios#zonas" className="hover:text-blue-700 transition">Zonas</Link>
-                    <Link href="#perfil" className="hover:text-blue-700 transition">Sobre el Dr.</Link>
+                    <Link href="/sobreeldoctor" className="hover:text-blue-700 transition">Sobre el Dr.</Link>
                     <Link href="/resultados" className="hover:text-blue-700 transition">Resultados</Link>
                     <a
                         href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20agendar%20una%20consulta"

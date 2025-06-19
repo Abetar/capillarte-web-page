@@ -6,6 +6,7 @@ import { FaInstagram, FaTiktok } from 'react-icons/fa'
 import Navbar from '../components/Navbar'
 import FooterSitio from '../components/FooterSitio'
 import Image from 'next/image'
+import BotonWhatsapp from '../components/BotonWhatsApp'
 
 const imagenes = [
     '/implantacion_nutrientes.jpg',
@@ -121,6 +122,7 @@ export default function ResultadosMultimedia() {
                     </div>
                 </div>
             </section>
+            <BotonWhatsapp />
             <FooterSitio />
         </>
     )
