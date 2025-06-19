@@ -4,6 +4,7 @@ import FooterSitio from '../components/FooterSitio'
 import HeroSection from '../components/HeroSection'
 import SeccionZonasCapilares from '../components/SeccionZonasCapilares'
 import type { Metadata } from 'next'
+import BotonWhatsapp from '../components/BotonWhatsApp'
 
 export const metadata: Metadata = {
   title: 'CAPILLARTE',
@@ -30,6 +31,7 @@ export default function ServiciosPage() {
             />
             <SeccionServicios />
             <SeccionZonasCapilares />
+            <BotonWhatsapp />
             <FooterSitio />
         </>
     )
