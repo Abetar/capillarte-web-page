@@ -46,7 +46,7 @@ export default function Navbar() {
                     <Link href="/sobreeldoctor" className="hover:text-blue-700 transition">Sobre el Dr.</Link>
                     <Link href="/resultados" className="hover:text-blue-700 transition">Resultados</Link>
                     <a
-                        href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20agendar%20una%20consulta"
+                        href="https://wa.me/5213313572842?text=Hola%2C%20quiero%20agendar%20una%20consulta%20capilar"
                         className="bg-blue-900 hover:bg-blue-950 text-white px-4 py-1.5 rounded transition"
                     >
                         Agenda Ahora
@@ -62,7 +62,7 @@ export default function Navbar() {
                     <Link href="/sobreeldoctor" onClick={() => setMenuOpen(false)}>Sobre el Dr.</Link>
                     <Link href="/resultados" onClick={() => setMenuOpen(false)}>Resultados</Link>
                     <a
-                        href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20agendar%20una%20consulta"
+                        href="https://wa.me/5213313572842?text=Hola%2C%20quiero%20agendar%20una%20consulta%20capilar"
                         className="bg-blue-900 text-white px-4 py-2 rounded text-center hover:bg-blue-950 transition"
                     >
                         Agenda Ahora
