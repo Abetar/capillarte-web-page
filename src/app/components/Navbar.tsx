@@ -57,10 +57,10 @@ export default function Navbar() {
             {/* Menú desplegable en mobile */}
             {menuOpen && (
                 <nav className="md:hidden bg-white border-t border-gray-100 px-6 py-4 flex flex-col gap-4 text-slate-700">
-                    <Link href="#servicios" onClick={() => setMenuOpen(false)}>Servicios</Link>
-                    <Link href="#zonas" onClick={() => setMenuOpen(false)}>Zonas</Link>
-                    <Link href="#perfil" onClick={() => setMenuOpen(false)}>Sobre el Dr.</Link>
-                    <Link href="#resultados" onClick={() => setMenuOpen(false)}>Resultados</Link>
+                    <Link href="/servicios" onClick={() => setMenuOpen(false)}>Servicios</Link>
+                    <Link href="/servicios#zonas" onClick={() => setMenuOpen(false)}>Zonas</Link>
+                    <Link href="/sobreeldoctor" onClick={() => setMenuOpen(false)}>Sobre el Dr.</Link>
+                    <Link href="/resultados" onClick={() => setMenuOpen(false)}>Resultados</Link>
                     <a
                         href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20agendar%20una%20consulta"
                         className="bg-blue-900 text-white px-4 py-2 rounded text-center hover:bg-blue-950 transition"
