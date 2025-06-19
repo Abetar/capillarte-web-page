@@ -57,7 +57,6 @@ export default function SeccionCompromiso() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ delay: 0.3, duration: 0.6 }}
           href="/resultados"
-          target='_blank'
           className="bg-blue-900 hover:bg-blue-950 text-white font-medium py-2 px-6 rounded-md shadow-md transition text-sm md:text-base"
         >
           Que dicen nuestros pacientes
