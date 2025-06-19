@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function SeccionPerfilDoctor() {
     return (
-        <section className="bg-white py-20 px-6 md:px-24 text-slate-800">
+        <section className="bg-white py-20 px-6 md:px-24 text-slate-800" id='perfil'>
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Perfil del Especialista</h2>
             <h4 className="text-2xl md:text-3xl font-bold text-center mb-10">Dr. Adrian Hernandez Lopez</h4>
 

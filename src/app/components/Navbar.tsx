@@ -44,7 +44,7 @@ export default function Navbar() {
                     <Link href="/servicios" className="hover:text-blue-700 transition">Servicios</Link>
                     <Link href="/servicios#zonas" className="hover:text-blue-700 transition">Zonas</Link>
                     <Link href="#perfil" className="hover:text-blue-700 transition">Sobre el Dr.</Link>
-                    <Link href="#resultados" className="hover:text-blue-700 transition">Resultados</Link>
+                    <Link href="/resultados" className="hover:text-blue-700 transition">Resultados</Link>
                     <a
                         href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20agendar%20una%20consulta"
                         className="bg-blue-900 hover:bg-blue-950 text-white px-4 py-1.5 rounded transition"
