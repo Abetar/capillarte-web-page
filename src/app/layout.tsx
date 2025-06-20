@@ -10,10 +10,13 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'Capillarte | Especialistas en Injerto Capilar',
-  description: 'Confianza, tecnología y experiencia en microinjerto capilar, tricología y estética facial.',
+  title: 'Injerto Capilar en Zapopan | Capillarte',
+  description: 'Especialistas en injerto capilar con técnica FUE Zafiro. Resultados naturales, mínima invasión y recuperación rápida. Agenda tu consulta hoy.',
+  keywords: ['injerto capilar', 'microinjerto', 'tricología', 'FUE Zafiro', 'capilar', 'calvicie', 'Zapopan'],
+  icons: {
+    icon: '/CapillarteLogo.png',
+  },
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{

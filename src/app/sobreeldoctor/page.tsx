@@ -20,7 +20,7 @@ export default function SobreElDoctor() {
 
             <section className="bg-white py-20 px-6 md:px-24 text-center text-slate-800">
                 <h2 className="text-3xl md:text-4xl font-bold mb-10">
-                    Conoce al Dr. Adrián M. Hernández
+                    Conoce al Dr. Adrián Hernández
                 </h2>
 
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10 text-left">
