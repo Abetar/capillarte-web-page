@@ -18,41 +18,41 @@ import {
 
 const servicios = [
     {
-        titulo: 'Consulta en línea',
+        titulo: 'Valoración en línea',
         descripcion: 'Valoración capilar personalizada desde la comodidad de tu casa.',
-        detalles: 'Se realiza una evaluación médica capilar utilizando videollamada...',
+        detalles: 'Se realiza una evaluación médica capilar utilizando videollamada.',
         imagenes: [],
         icon: <MonitorSmartphone className="w-10 h-10 text-blue-600 mb-4" />
     },
     {
+        titulo: 'Consulta presencial',
+        descripcion: 'Diagnóstico médico clínico en consultorio.',
+        detalles: 'Evaluación profesional con tricoscopía.',
+        imagenes: [],
+        icon: <Stethoscope className="w-10 h-10 text-blue-600 mb-4" />
+    },
+    {
         titulo: 'Microinjerto capilar (FUE)',
         descripcion: 'Técnica avanzada para restaurar zonas con pérdida de cabello.',
-        detalles: 'Se extraen folículos uno por uno...',
+        detalles: 'Se extraen folículos uno por uno.',
         imagenes: ['/fue_zafiro.jpg', '/Capillarte_2.jpg'],
         icon: <Scissors className="w-10 h-10 text-blue-600 mb-4" />
     },
     {
         titulo: 'Mesoterapia capilar',
         descripcion: 'Aplicación de nutrientes en el cuero cabelludo.',
-        detalles: 'Se aplican complejos vitamínicos con microinyecciones...',
+        detalles: 'Se aplican complejos vitamínicos con microinyecciones.',
         imagenes: ['/implantacion_nutrientes.jpg'],
         icon: <Droplets className="w-10 h-10 text-blue-600 mb-4" />
     },
     {
-        titulo: 'Consulta presencial',
-        descripcion: 'Diagnóstico médico clínico en consultorio.',
-        detalles: 'Evaluación profesional con tricoscopía...',
-        imagenes: [],
-        icon: <Stethoscope className="w-10 h-10 text-blue-600 mb-4" />
-    },
-    {
         titulo: 'Injerto Capilar Facial',
         descripcion: 'Restauración estética de barba, cejas y otras áreas.',
-        detalles: 'Procedimiento quirúrgico mínimamente invasivo...',
+        detalles: 'Procedimiento quirúrgico mínimamente invasivo.',
         imagenes: ['injerto_barba.jpg', 'injerto_cejas.jpg'],
         icon: <UserRound className="w-10 h-10 text-blue-600 mb-4" />
     },
-     {
+    {
         titulo: 'Aplicación de dutasteride',
         descripcion: 'Tratamiento médico para frenar la caída capilar hormonal.',
         detalles: 'Medicamento antiandrogénico para tratar la alopecia androgenética.',
@@ -118,20 +118,39 @@ export default function SeccionServicios() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {servicios.map((servicio, index) => (
-                    <motion.div
-                        key={index}
-                        className={`bg-white rounded-xl p-6 flex flex-col items-center shadow hover:shadow-md transition text-center cursor-pointer ${index === 0 ? 'animate-pulse' : ''
-                            }`}
-                        onClick={() => setServicioActivo(servicio)}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                        transition={{ delay: index * 0.1, duration: 0.5 }}
-                    >
-                        {servicio.icon}
-                        <h4 className="text-lg font-semibold text-slate-800 mb-2">{servicio.titulo}</h4>
-                        <p className="text-sm text-gray-600 mb-4">{servicio.descripcion}</p>
-                        <Plus className="w-5 h-5 text-blue-500" />
-                    </motion.div>
+                    <>
+                        <motion.div
+                            key={index}
+                            className={`bg-white rounded-xl p-6 flex flex-col items-center shadow hover:shadow-md transition text-center cursor-pointer ${index === 0 ? 'animate-pulse' : ''
+                                }`}
+                            onClick={() => setServicioActivo(servicio)}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                            transition={{ delay: index * 0.1, duration: 0.5 }}
+                        >
+                            {servicio.icon}
+                            <h4 className="text-lg font-semibold text-slate-800 mb-2">{servicio.titulo}</h4>
+                            <p className="text-sm text-gray-600 mb-4">{servicio.descripcion}</p>
+                            <Plus className="w-5 h-5 text-blue-500" />
+                        </motion.div>
+
+                        <motion.div
+                            key={index}
+                            className={`bg-white rounded-xl p-6 flex flex-col items-center shadow hover:shadow-md transition text-center cursor-pointer ${index === 0 ? 'animate-pulse' : ''
+                                }`}
+                            onClick={() => setServicioActivo(servicio)}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                            transition={{ delay: index * 0.1, duration: 0.5 }}
+                        >
+                            {servicio.icon}
+                            <h4 className="text-lg font-semibold text-slate-800 mb-2">{servicio.titulo}</h4>
+                            <p className="text-sm text-gray-600 mb-4">{servicio.descripcion}</p>
+                            <Plus className="w-5 h-5 text-blue-500" />
+                        </motion.div>
+                    </>
+
+
                 ))}
             </div>
 
