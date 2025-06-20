@@ -133,21 +133,6 @@ export default function SeccionServicios() {
                             <p className="text-sm text-gray-600 mb-4">{servicio.descripcion}</p>
                             <Plus className="w-5 h-5 text-blue-500" />
                         </motion.div>
-
-                        <motion.div
-                            key={index}
-                            className={`bg-white rounded-xl p-6 flex flex-col items-center shadow hover:shadow-md transition text-center cursor-pointer ${index === 0 ? 'animate-pulse' : ''
-                                }`}
-                            onClick={() => setServicioActivo(servicio)}
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                            transition={{ delay: index * 0.1, duration: 0.5 }}
-                        >
-                            {servicio.icon}
-                            <h4 className="text-lg font-semibold text-slate-800 mb-2">{servicio.titulo}</h4>
-                            <p className="text-sm text-gray-600 mb-4">{servicio.descripcion}</p>
-                            <Plus className="w-5 h-5 text-blue-500" />
-                        </motion.div>
                     </>
 
 
