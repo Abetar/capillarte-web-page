@@ -29,7 +29,7 @@ export default function SobreElDoctor() {
                         <Image
                             src="/capillarte_dr.jpeg"
                             alt="Dr. Adrián M. Hernández"
-                            width={400}
+                            width={500}
                             height={500}
                             className="rounded-xl shadow-lg object-cover"
                         />

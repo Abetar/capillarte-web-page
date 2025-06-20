@@ -12,12 +12,12 @@ export default function SeccionPerfilDoctor() {
 
             <div className="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto items-start justify-center">
                 {/* Imagen del doctor */}
-                <div className="w-full md:w-1/3 flex justify-center">
+                <div className="w-full md:w-1/1 flex justify-center">
                     <Image
                         src="/capillarte_dr.jpeg"
                         alt="Foto del Doctor"
-                        width={250}
-                        height={250}
+                        width={500}
+                        height={500}
                         className="rounded-xl shadow-md object-cover"
                     />
                 </div>
