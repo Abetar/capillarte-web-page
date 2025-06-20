@@ -27,22 +27,9 @@ export default function SeccionPerfilDoctor() {
                     <div>
                         <h3 className="font-bold text-lg">Médico Cirujano</h3>
                         <p className="text-sm">Universidad del Valle de Atemajac (2018)</p>
-                    </div>
-                    <div>
-                        <h3 className="font-bold text-lg">Residencia en Hospital Salud de los Enfermos</h3>
-                        <p className="text-sm">(2019)</p>
-                    </div>
-                    <div>
-                        <h3 className="font-bold text-lg">Estancia en Hospital Regional Ciudad Guzmán</h3>
-                        <p className="text-sm">(2020)</p>
-                    </div>
-                    <div>
-                        <h3 className="font-bold text-lg">Médico pasante</h3>
-                        <p className="text-sm">Centro de Salud San Gabriel (2021)</p>
-                    </div>
-                    <div>
-                        <h3 className="font-bold text-lg">Unidad Médica Farmalife</h3>
-                        <p className="text-sm">(2020 - 2023)</p>
+                        <p className="text-sm text-slate-600">
+                            Cédula Profesional: 12963161
+                        </p>
                     </div>
                     <div>
                         <h3 className="font-bold text-lg">Implante Capilar Técnica F.U.E.</h3>
@@ -63,18 +50,19 @@ export default function SeccionPerfilDoctor() {
                 </div>
 
                 {/* Ubicación Google Maps */}
-                <div className="w-full md:w-1/3 flex justify-center">
+                <div className="w-full h-[400px] rounded-xl overflow-hidden shadow-lg">
                     <iframe
-                        src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Allioth 3952, Arboledas, 45070 Zapopan, Jal.&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                        width="250"
-                        height="250"
+                        title="Ubicación Capillarte"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.016646384492!2d-103.4226863!3d20.6330821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ad0a017f851d%3A0x88146434d7d2591d!2sCapillarte!5e0!3m2!1ses-419!2smx!4v1718732465421!5m2!1ses-419!2smx"
+                        width="100%"
+                        height="100%"
                         style={{ border: 0 }}
-                        allowFullScreen={false}
+                        allowFullScreen={true}
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        className="rounded-xl shadow-md"
                     ></iframe>
                 </div>
+
             </div>
 
             {/* Botones redes sociales */}

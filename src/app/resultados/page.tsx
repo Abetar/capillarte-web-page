@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar'
 import FooterSitio from '../components/FooterSitio'
 import Image from 'next/image'
 import BotonWhatsapp from '../components/BotonWhatsApp'
+import Head from 'next/head'
 
 const imagenes = [
     '/implantacion_nutrientes.jpg',
@@ -24,6 +25,11 @@ export default function ResultadosMultimedia() {
 
     return (
         <>
+            <Head>
+                <title>Servicios | Capillarte</title>
+                <meta name="description" content="Conoce la experiencia, formación y publicaciones del Dr. Adrián, especialista en tricología e injerto capilar." />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Head>
             <Navbar />
             <section className="bg-white">
                 {/* HERO CON VIDEO */}

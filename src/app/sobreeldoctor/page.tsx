@@ -6,11 +6,18 @@ import { MdLocalHospital } from 'react-icons/md'
 import Navbar from '../components/Navbar'
 import FooterSitio from '../components/FooterSitio'
 import BotonWhatsapp from '../components/BotonWhatsApp'
+import Head from 'next/head'
 
 export default function SobreElDoctor() {
     return (
         <>
+            <Head>
+                <title>Sobre el Doctor | Capillarte</title>
+                <meta name="description" content="Conoce la experiencia, formación y publicaciones del Dr. Adrián, especialista en tricología e injerto capilar." />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Head>
             <Navbar />
+
             <section className="bg-white py-20 px-6 md:px-24 text-center text-slate-800">
                 <h2 className="text-3xl md:text-4xl font-bold mb-10">
                     Conoce al Dr. Adrián M. Hernández
@@ -35,6 +42,10 @@ export default function SobreElDoctor() {
                             Su enfoque se basa en la precisión médica, la estética facial natural y un acompañamiento cercano a cada paciente.
                         </p>
 
+                        {/* No. de cédula: 12963161 */}
+                        <p className="text-sm text-slate-600">
+                            Cédula Profesional: 12963161
+                        </p>
                         <div>
                             <h3 className="text-xl font-semibold text-blue-900 mb-2">Formación Académica</h3>
                             <ul className="list-disc list-inside text-sm space-y-1 text-slate-700">
@@ -42,15 +53,6 @@ export default function SobreElDoctor() {
                                 <li>Instituto Panamericano – Técnica F.U.E (2024)</li>
                                 <li>Universidad Autónoma de México – Injerto Capilar Avanzado (2024)</li>
                                 <li>Universidad en Línea de Madrid (UDIMA) – Máster en Tricología (2024)</li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <h3 className="text-xl font-semibold text-blue-900 mb-2">Experiencia Profesional</h3>
-                            <ul className="list-disc list-inside text-sm space-y-1 text-slate-700">
-                                <li>Hospital Salud de los Enfermos – Residencia</li>
-                                <li>Centro de Salud San Gabriel – Médico pasante</li>
-                                <li>Unidad Médica FARMALIFE (2020–2023)</li>
                             </ul>
                         </div>
 
