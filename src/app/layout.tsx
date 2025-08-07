@@ -25,6 +25,7 @@ export default function RootLayout({
     <html lang="es" className={poppins.variable}>
       <head>
         <link rel="icon" href="/CapillarteLogo.png" />
+        <meta name="google-site-verification" content="vicCDislG1uDkiWx4yVJqZIrFXwBqWHcM459c1as_IM" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>
